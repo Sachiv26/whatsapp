@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-api",
+  "version": "1.0.0",
+  "description": "Send and receive WhatsApp messages via the Meta WhatsApp Business Cloud API",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test:send": "tsx src/scripts/testSend.ts"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-api",
+    "meta",
+    "cloud-api"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.3",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
